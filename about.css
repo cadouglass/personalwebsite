@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display:block;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.name {
+    float: left;
+    display: block;
+}
+
+.links {
+    float: right;
+    display: block;
+}
+
+main {
+    padding: 10rem;
+    text-align: center;
+}
